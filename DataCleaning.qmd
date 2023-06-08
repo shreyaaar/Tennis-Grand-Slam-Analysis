@@ -1,0 +1,82 @@
+---
+title: "Women's Tennis Data"
+format: html
+editor: visual
+---
+
+```{r libraries}
+library(rvest)
+library(magrittr)
+```
+
+
+```{r Austrailian Open WTA,tidy=F }
+#Step 0 - assign the weblink to an object
+AOurl <- "https://ausopen.com/history/honour-roll/womens-singles"
+
+#Step 1 - read the webpage into R
+AOlink <- read_html(AOurl)
+
+#Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
+AOhtml <- html_nodes(AOlink, css = "table")
+
+#Step 3 - extract text from the node
+AO_wta <- html_table(AOhtml)
+
+#Combine all text for a paragraph form of the weather forecast
+head(AO_wta)
+```
+
+```{r Wimbledon}
+#Step 0 - assign the weblink to an object
+Wurl <- "https://www.tennis-x.com/winners/womens/wimbledon.php"
+
+#Step 1 - read the webpage into R
+Wlink <- read_html(Wurl)
+
+#Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
+Whtml <- html_nodes(Wlink, css = ".chart")
+
+#Step 3 - extract text from the node
+W_wta <- html_table(Whtml)
+
+#Combine all text for a paragraph form of the weather forecast
+head(W_wta)
+```
+
+```{r French Open}
+#Step 0 - assign the weblink to an object
+FOurl <- "https://www.tennis-x.com/winners/womens/french-open.php"
+
+#Step 1 - read the webpage into R
+FOlink <- read_html(FOurl)
+
+#Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
+FOhtml <- html_nodes(FOlink, css = ".chart")
+
+#Step 3 - extract text from the node
+FO_wta <- html_table(FOhtml)
+
+#Combine all text for a paragraph form of the weather forecast
+head(FO_wta)
+```
+
+```{r US Open}
+#Step 0 - assign the weblink to an object
+USOurl <- "https://www.topendsports.com/events/tennis-grand-slam/us-open/winners-women.htm"
+
+#Step 1 - read the webpage into R
+USOlink <- read_html(USOurl)
+
+#Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
+USOhtml <- html_nodes(USOlink, css = "table")
+
+#Step 3 - extract text from the node
+USO_wta <- html_table(USOhtml)
+
+#Combine all text for a paragraph form of the weather forecast
+head(USO_wta)
+```
+
+
+
