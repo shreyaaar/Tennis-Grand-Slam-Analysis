@@ -1,0 +1,432 @@
+YEAR,WINNER,RUNNER-UP,WINNER_NATIONALITY,TOURNAMENT_SURFACE,TOURNAMENT,WINNER_PRIZE,MEAN_PRIZE,GENDER
+2023,Novak Djokovic,Stefanos Tsitsipas,Serbian,Plexicushion Prestige,Australian Open,1373500,1373500,Male
+2022,Carlos Alcaraz,Casper Rudd,Spanish,DecoTurf - outdoors,U.S. Open,2600000,2681749,Male
+2022,Novak Djokovic,Nick Kyrgios,Serbian,Grass / Outdoor,Wimbledon,3159399,2681749,Male
+2022,Rafael Nadal,Casper Rudd,Spanish,Clay,French Open,2019600,2681749,Male
+2022,Rafael Nadal,Daniil Medvedev,Spanish,Plexicushion Prestige,Australian Open,2948000,2681749,Male
+2021,Daniil Medvedev,Novak Djokovic,Russian,DecoTurf - outdoors,U.S. Open,2500000,2020062,Male
+2021,Novak Djokovic,Matteo Berrettini,Serbian,Grass / Outdoor,Wimbledon,2142000,2020062,Male
+2021,Novak Djokovic,Stefanos Tsitsipas,Serbian,Clay,French Open,1512000,2020062,Male
+2021,Novak Djokovic,Daniil Medvedev,Serbian,Plexicushion Prestige,Australian Open,1926250,2020062,Male
+2020,Rafael Nadal,Novak Djokovic,Spanish,Clay,French Open,1728000,2329466,Male
+2020,Dominic Thiem,Alexander Zverev,Austrian,DecoTurf - outdoors,U.S. Open,2500000,2329466,Male
+2020,Novak Djokovic,Dominic Thiem,Serbian,Plexicushion Prestige,Australian Open,2760400,2329466,Male
+2019,Rafael Nadal,Daniil Medvedev,Spanish,DecoTurf - outdoors,U.S. Open,3850000,3010500,Male
+2019,Novak Djokovic,Roger Federer,Serbian,Grass / Outdoor,Wimbledon,2961000,3010500,Male
+2019,Rafael Nadal,Dominic Thiem,Spanish,Clay,French Open,2484000,3010500,Male
+2019,Novak Djokovic,Rafael Nadal,Serbian,Plexicushion Prestige,Australian Open,2747000,3010500,Male
+2018,Novak Djokovic,Juan Martin del Potro,Serbian,DecoTurf - outdoors,U.S. Open,3800000,2922750,Male
+2018,Novak Djokovic,Kevin Anderson,Serbian,Grass / Outdoor,Wimbledon,2835000,2922750,Male
+2018,Rafael Nadal,Dominic Thiem,Spanish,Clay,French Open,2376000,2922750,Male
+2018,Roger Federer,Marin ili,Swiss,Plexicushion Prestige,Australian Open,2680000,2922750,Male
+2017,Rafael Nadal,Kevin Anderson,Spanish,DecoTurf - outdoors,U.S. Open,3700000,2804750,Male
+2017,Roger Federer,Marin ili,Swiss,Grass / Outdoor,Wimbledon,2772000,2804750,Male
+2017,Rafael Nadal,Stan Wawrinka,Spanish,Clay,French Open,2268000,2804750,Male
+2017,Roger Federer,Rafael Nadal,Swiss,Plexicushion Prestige,Australian Open,2479000,2804750,Male
+2016,Stan Wawrinka,Novak Djokovic,Swiss,DecoTurf - outdoors,U.S. Open,3500000,2614500,Male
+2016,Andy Murray,Milos Raonic,British,Grass / Outdoor,Wimbledon,2520000,2614500,Male
+2016,Novak Djokovic,Andy Murray,Serbian,Clay,French Open,2160000,2614500,Male
+2016,Novak Djokovic,Andy Murray,Serbian,Plexicushion Prestige,Australian Open,2278000,2614500,Male
+2015,Novak Djokovic,Roger Federer,Serbian,DecoTurf - outdoors,U.S. Open,3300000,2422450,Male
+2015,Novak Djokovic,Roger Federer,Serbian,Grass / Outdoor,Wimbledon,2368800,2422450,Male
+2015,Stan Wawrinka,Novak Djokovic,Swiss,Clay,French Open,1944000,2422450,Male
+2015,Novak Djokovic,Andy Murray,Serbian,Plexicushion Prestige,Australian Open,2077000,2422450,Male
+2014,Marin Cilic,Kei Nishikori,Croatian,DecoTurf - outdoors,U.S. Open,3000000,2193775,Male
+2014,Novak Djokovic,Roger Federer,Serbian,Grass / Outdoor,Wimbledon,2217600,2193775,Male
+2014,Rafael Nadal,Novak Djokovic,Spanish,Clay,French Open,1782000,2193775,Male
+2014,Stan Wawrinka,Rafael Nadal,Swiss,Plexicushion Prestige,Australian Open,1775500,2193775,Male
+2013,Rafael Nadal,Novak Djokovic,Spanish,DecoTurf - outdoors,U.S. Open,2600000,1966025,Male
+2013,Andy Murray,Novak Djokovic,British,Grass / Outdoor,Wimbledon,2016000,1966025,Male
+2013,Rafael Nadal,David Ferrer,Spanish,Clay,French Open,1620000,1966025,Male
+2013,Novak Djokovic,Andy Murray,Serbian,Plexicushion Prestige,Australian Open,1628100,1966025,Male
+2012,Andy Murray,Novak Djokovic,British,DecoTurf - outdoors,U.S. Open,1900000,1560000,Male
+2012,Roger Federer,Andy Murray,Swiss,Grass / Outdoor,Wimbledon,1449000,1560000,Male
+2012,Rafael Nadal,Novak Djokovic,Spanish,Clay,French Open,1350000,1560000,Male
+2012,Novak Djokovic,Rafael Nadal,Serbian,Plexicushion Prestige,Australian Open,1541000,1560000,Male
+2011,Novak Djokovic,Rafael Nadal,Serbian,DecoTurf - outdoors,U.S. Open,1800000,1489000,Male
+2011,Novak Djokovic,Rafael Nadal,Serbian,Grass / Outdoor,Wimbledon,1386000,1489000,Male
+2011,Rafael Nadal,Roger Federer,Spanish,Clay,French Open,1296000,1489000,Male
+2011,Novak Djokovic,Andy Murray,Serbian,Plexicushion Prestige,Australian Open,1474000,1489000,Male
+2010,Rafael Nadal,Novak Djokovic,Spanish,DecoTurf - outdoors,U.S. Open,1700000,1394150,Male
+2010,Rafael Nadal,Tomas Berdych,Spanish,Grass / Outdoor,Wimbledon,1260000,1394150,Male
+2010,Rafael Nadal,Robin Soderling,Spanish,Clay,French Open,1209600,1394150,Male
+2010,Roger Federer,Andy Murray,Swiss,Plexicushion Prestige,Australian Open,1407000,1394150,Male
+2009,Juan Martin del Potro,Roger Federer,Argentine,DecoTurf - outdoors,U.S. Open,1600000,1288950,Male
+2009,Roger Federer,Andy Roddick,Swiss,Grass / Outdoor,Wimbledon,1071000,1288950,Male
+2009,Roger Federer,Robin Soderling,Swiss,Clay,French Open,1144800,1288950,Male
+2009,Rafael Nadal,Roger Federer,Spanish,Plexicushion Prestige,Australian Open,1340000,1288950,Male
+2008,Roger Federer,Andy Murray,Swiss,DecoTurf - outdoors,U.S. Open,1500000,1110725,Male
+2008,Rafael Nadal,Roger Federer,Spanish,Grass / Outdoor,Wimbledon,945000,1110725,Male
+2008,Rafael Nadal,Roger Federer,Spanish,Clay,French Open,1080000,1110725,Male
+2008,Novak Djokovic,Jo-Wilfried Tsonga,Serbian,Plexicushion Prestige,Australian Open,917900,1110725,Male
+2007,Roger Federer,Novak Djokovic,Swiss,DecoTurf - outdoors,U.S. Open,1400000,1055067,Male
+2007,Roger Federer,Rafael Nadal,Swiss,Grass / Outdoor,Wimbledon,882000,1055067,Male
+2007,Rafael Nadal,Roger Federer,Spanish,Clay,French Open,1080000,1055067,Male
+2007,Roger Federer,Fernando Gonzalez,Swiss,Rebound Ace,Australian Open,858270,1055067,Male
+2006,Roger Federer,Andy Roddick,Swiss,DecoTurf - outdoors,U.S. Open,1200000,964475,Male
+2006,Roger Federer,Rafael Nadal,Swiss,Grass / Outdoor,Wimbledon,825300,964475,Male
+2006,Rafael Nadal,Roger Federer,Spanish,Clay,French Open,1015200,964475,Male
+2006,Roger Federer,Marcos Baghdatis,Swiss,Rebound Ace,Australian Open,817400,964475,Male
+2005,Roger Federer,Andre Agassi,Swiss,DecoTurf - outdoors,U.S. Open,1100000,913158,Male
+2005,Roger Federer,Andy Roddick,Swiss,Grass / Outdoor,Wimbledon,793800,913158,Male
+2005,Rafael Nadal,Mariano Puerta,Spanish,Clay,French Open,950400,913158,Male
+2005,Marat Safin,Lleyton Hewitt,Russian,Rebound Ace,Australian Open,808435,913158,Male
+2004,Roger Federer,Lleyton Hewitt,Swiss,DecoTurf - outdoors,U.S. Open,1000000,872987,Male
+2004,Roger Federer,Andy Roddick,Swiss,Grass / Outdoor,Wimbledon,759150,872987,Male
+2004,Gaston Gaudio,Guillermo Coria,Argentine,Clay,French Open,928800,872987,Male
+2004,Roger Federer,Marat Safin,Swiss,Rebound Ace,Australian Open,804000,872987,Male
+2003,Andy Roddick,Juan Carlos Ferrero,American,DecoTurf - outdoors,U.S. Open,1000000,846839,Male
+2003,Roger Federer,Mark Philippoussis,Swiss,Grass / Outdoor,Wimbledon,724500,846839,Male
+2003,Juan Carlos Ferrero,Martin Verkerk,Spanish,Clay,French Open,907200,846839,Male
+2003,Andre Agassi,Rainer Schuettler,American,Rebound Ace,Australian Open,755659,846839,Male
+2002,Pete Sampras,Andre Agassi,American,DecoTurf - outdoors,U.S. Open,900000,768475,Male
+2002,Lleyton Hewitt,David Nalbandian,Australian,Grass / Outdoor,Wimbledon,661500,768475,Male
+2002,Albert Costa,Juan Carlos Ferrero,Spanish,Clay,French Open,842400,768475,Male
+2002,Thomas Johannson,Marat Safin,Swedish,Rebound Ace,Australian Open,670000,768475,Male
+2001,Lleyton Hewitt,Pete Sampras,Australian,DecoTurf - outdoors,U.S. Open,850000,695166,Male
+2001,Goran Ivanisevic,Patrick Rafter,Croatian,Grass / Outdoor,Wimbledon,630000,695166,Male
+2001,Gustavo Kuerten,Alex Corretja,Brazilian,Clay,French Open,744232,695166,Male
+2001,Andre Agassi,Arnaud Clement,American,Rebound Ace,Australian Open,556435,695166,Male
+2000,Marat Safin,Pete Sampras,Russian,DecoTurf - outdoors,U.S. Open,800000,650715,Male
+2000,Pete Sampras,Patrick Rafter,American,Grass / Outdoor,Wimbledon,601650,650715,Male
+2000,Gustavo Kuerten,Magnus Norman,Brazilian,Clay,French Open,695360,650715,Male
+2000,Andre Agassi,Yevgeny Kafelnikov,American,Rebound Ace,Australian Open,505850,650715,Male
+1999,Andre Agassi,Todd Martin,American,DecoTurf - outdoors,U.S. Open,750000,617400,Male
+1999,Pete Sampras,Andre Agassi,American,Grass / Outdoor,Wimbledon,573300,617400,Male
+1999,Andre Agassi,Andre Medvedev,American,Clay,French Open,662560,617400,Male
+1999,Yevgeny Kafelnikov,Thomas Enqvist,Russian,Rebound Ace,Australian Open,483740,617400,Male
+1998,Patrick Rafter,Mark Philippoussis,Australian,DecoTurf - outdoors,U.S. Open,700000,572969,Male
+1998,Pete Sampras,Goran Ivanisevic,American,Grass / Outdoor,Wimbledon,548100,572969,Male
+1998,Carlos Moya,Alex Corretja,Spanish,Clay,French Open,631728,572969,Male
+1998,Petr Korda,Marcelo Rios,Czech,Rebound Ace,Australian Open,412050,572969,Male
+1997,Patrick Rafter,Greg Rusedski,Australian,DecoTurf - outdoors,U.S. Open,650000,541600,Male
+1997,Pete Sampras,Cedric Pioline,American,Grass / Outdoor,Wimbledon,522900,541600,Male
+1997,Gustavo Kuerten,Sergi Bruguera,Brazilian,Clay,French Open,601552,541600,Male
+1997,Pete Sampras,Carlos Moya,American,Rebound Ace,Australian Open,391950,541600,Male
+1996,Pete Sampras,Michael Chang,American,DecoTurf - outdoors,U.S. Open,600000,509304,Male
+1996,Richard Krajicek,MaliVai Washington,Dutch,Grass / Outdoor,Wimbledon,494550,509304,Male
+1996,Yevgeny Kafelnikov,Michael Stich,Russian,Clay,French Open,566128,509304,Male
+1996,Boris Becker,Michael Chang,German,Rebound Ace,Australian Open,376540,509304,Male
+1995,Pete Sampras,Andre Agassi,American,DecoTurf - outdoors,U.S. Open,575000,475245,Male
+1995,Pete Sampras,Boris Becker,American,Grass / Outdoor,Wimbledon,459900,475245,Male
+1995,Thomas Muster,Michael Chang,Austrian,Clay,French Open,544480,475245,Male
+1995,Andre Agassi,Pete Sampras,American,Rebound Ace,Australian Open,321600,475245,Male
+1994,Andre Agassi,Michael Stich,American,DecoTurf - outdoors,U.S. Open,550000,452785,Male
+1994,Pete Sampras,Goran Ivanisevic,American,Grass / Outdoor,Wimbledon,434700,452785,Male
+1994,Sergi Bruguera,Alberto Berasategui,Spanish,Clay,French Open,518240,452785,Male
+1994,Pete Sampras,Todd Martin,American,Rebound Ace,Australian Open,308200,452785,Male
+1993,Pete Sampras,Cedric Pioline,American,DecoTurf - outdoors,U.S. Open,535000,408380,Male
+1993,Pete Sampras,Jim Courier,American,Grass / Outdoor,Wimbledon,384300,408380,Male
+1993,Sergi Bruguera,Jim Courier,Spanish,Clay,French Open,439520,408380,Male
+1993,Jim Courier,Stefan Edberg,American,Rebound Ace,Australian Open,274700,408380,Male
+1992,Stefan Edberg,Pete Sampras,Swedish,DecoTurf - outdoors,U.S. Open,500000,378655,Male
+1992,Andre Agassi,Goran Ivanisevic,American,Grass / Outdoor,Wimbledon,333900,378655,Male
+1992,Jim Courier,Petr Korda,American,Clay,French Open,439520,378655,Male
+1992,Jim Courier,Stefan Edberg,American,Rebound Ace,Australian Open,241200,378655,Male
+1991,Stefan Edberg,Jim Courier,Swedish,DecoTurf - outdoors,U.S. Open,400000,329568,Male
+1991,Michael Stich,Boris Becker,German,Grass / Outdoor,Wimbledon,302400,329568,Male
+1991,Jim Courier,Andre Agassi,American,Clay,French Open,401472,329568,Male
+1991,Boris Becker,Ivan Lendl,German,Rebound Ace,Australian Open,214400,329568,Male
+1990,Pete Sampras,Andre Agassi,American,DecoTurf - outdoors,U.S. Open,350000,295886,Male
+1990,Stefan Edberg,Boris Becker,Swedish,Grass / Outdoor,Wimbledon,289800,295886,Male
+1990,Andres Gomez,Andre Agassi,Ecuadorian,Clay,French Open,365080,295886,Male
+1990,Ivan Lendl,Stefan Edberg,Czechoslovakia,Rebound Ace,Australian Open,178666,295886,Male
+1989,Boris Becker,Ivan Lendl,German,DecoTurf - outdoors,U.S. Open,300000,231746,Male
+1989,Boris Becker,Stefan Edberg,German,Grass / Outdoor,Wimbledon,239400,231746,Male
+1989,Michael Chang,Stefan Edberg,American,Clay,French Open,293787,231746,Male
+1989,Ivan Lendl,Miloslav Mecir,Czechoslovakia,Rebound Ace,Australian Open,93800,231746,Male
+1988,Mats Wilander,Ivan Lendl,Swedish,DecoTurf - outdoors,U.S. Open,275000,199822,Male
+1988,Stefan Edberg,Boris Becker,Swedish,Grass / Outdoor,Wimbledon,207900,199822,Male
+1988,Mats Wilander,Henri Leconte,Swedish,Clay,French Open,246039,199822,Male
+1988,Mats Wilander,Pat Cash,Swedish,Rebound Ace,Australian Open,70350,199822,Male
+1987,Ivan Lendl,Mats Wilander,Czechoslovakia,DecoTurf - outdoors,U.S. Open,250000,182179,Male
+1987,Pat Cash,Ivan Lendl,Australian,Grass / Outdoor,Wimbledon,195300,182179,Male
+1987,Ivan Lendl,Mats Wilander,Czechoslovakia,Clay,French Open,213823,182179,Male
+1987,Stefan Edberg,Pat Cash,Swedish,Grass,Australian Open,69596,182179,Male
+1986,Ivan Lendl,Miloslav Mecir,Czechoslovakia,DecoTurf - outdoors,U.S. Open,210000,205183,Male
+1986,Boris Becker,Ivan Lendl,German,Grass / Outdoor,Wimbledon,176400,205183,Male
+1986,Ivan Lendl,Mikael Pernfors,Czechoslovakia,Clay,French Open,229149,205183,Male
+1985,Stefan Edberg,Mats Wilander,Swedish,Grass,Australian Open,67000,159441,Male
+1985,Ivan Lendl,John McEnroe,Czechoslovakia,DecoTurf - outdoors,U.S. Open,187500,159441,Male
+1985,Boris Becker,Kevin Curren,German,Grass / Outdoor,Wimbledon,163800,159441,Male
+1985,Mats Wilander,Ivan Lendl,Swedish,Clay,French Open,219464,159441,Male
+1984,Mats Wilander,Kevin Curren,Swedish,Grass,Australian Open,67000,131652,Male
+1984,John McEnroe,Ivan Lendl,American,DecoTurf - outdoors,U.S. Open,160000,131652,Male
+1984,John McEnroe,Jimmy Connors,American,Grass / Outdoor,Wimbledon,126000,131652,Male
+1984,Ivan Lendl,John McEnroe,Czechoslovakia,Clay,French Open,173610,131652,Male
+1983,Mats Wilander,Ivan Lendl,Swedish,Grass,Australian Open,67000,88229,Male
+1983,Jimmy Connors,Ivan Lendl,American,DecoTurf - outdoors,U.S. Open,120000,88229,Male
+1983,John McEnroe,Chris Lewis,American,Grass / Outdoor,Wimbledon,83916,88229,Male
+1983,Yannick Noah,Mats Wilander,French,Clay,French Open,82000,88229,Male
+1982,Johan Kriek,Steve Denton,American,Grass,Australian Open,51925,65009,Male
+1982,Jimmy Connors,Ivan Lendl,American,DecoTurf - outdoors,U.S. Open,90000,65009,Male
+1982,Jimmy Connors,John McEnroe,American,Grass / Outdoor,Wimbledon,52513,65009,Male
+1982,Mats Wilander,Guillermo Vilas,Swedish,Clay,French Open,65600,65009,Male
+1981,Johan Kriek,Steve Denton,American,Grass,Australian Open,48240,45614,Male
+1981,John McEnroe,Bjorn Borg,American,DecoTurf - outdoors,U.S. Open,66000,45614,Male
+1981,John McEnroe,Bjorn Borg,American,Grass / Outdoor,Wimbledon,27216,45614,Male
+1981,Bjorn Borg,Ivan Lendl,Swedish,Clay,French Open,41000,45614,Male
+1980,Brian Teacher,Kim Warwick,American,Grass,Australian Open,42880,37581,Male
+1980,John McEnroe,Bjorn Borg,American,DecoTurf - outdoors,U.S. Open,46000,37581,Male
+1980,Bjorn Borg,John McEnroe,Swedish,Grass / Outdoor,Wimbledon,25200,37581,Male
+1980,Bjorn Borg,Vitas Gerulaitis,Swedish,Clay,French Open,36244,37581,Male
+1979,Guillermo Vilas,John Sadri,Argentine,Grass,Australian Open,33510,32955,Male
+1979,John McEnroe,Vitas Gerulaitis,American,DecoTurf - outdoors,U.S. Open,39000,32955,Male
+1979,Bjorn Borg,Roscoe Tanner,Swedish,Grass / Outdoor,Wimbledon,25200,32955,Male
+1979,Bjorn Borg,Victor Pecci,Swedish,Clay,French Open,34112,32955,Male
+1978,Guillermo Vilas,John Marks,Argentine,Grass,Australian Open,33510,32472,Male
+1978,Jimmy Connors,Bjorn Borg,American,DecoTurf - outdoors,U.S. Open,38000,32472,Male
+1978,Bjorn Borg,Jimmy Connors,Swedish,Grass / Outdoor,Wimbledon,23940,32472,Male
+1978,Bjorn Borg,Guillermo Vilas,Swedish,Clay,French Open,34440,32472,Male
+1977,Guillermo Vilas,Jimmy Connors,Argentine,Clay - outdoors,U.S. Open,33000,27686,Male
+1977,Bjorn Borg,Jimmy Connors,Swedish,Grass / Outdoor,Wimbledon,18900,27686,Male
+1977,Guillermo Vilas,Brian Gottfried,Argentine,Clay,French Open,31160,27686,Male
+1976,Jimmy Connors,Bjorn Borg,American,Clay - outdoors,U.S. Open,30000,18133,Male
+1976,Bjorn Borg,Ilie Nastase,Swedish,Grass / Outdoor,Wimbledon,15750,18133,Male
+1976,Adriano Panatta,Harold Soloman,Italian,Clay,French Open,21320,18133,Male
+1976,Mark Edmondson,John Newcombe,Australian,Grass,Australian Open,5464,18133,Male
+1975,Manuel Orantes,Jimmy Connors,American,Clay - outdoors,U.S. Open,25000,15866,Male
+1975,Arthur Ashe,Jimmy Connors,American,Grass / Outdoor,Wimbledon,12600,15866,Male
+1975,Bjorn Borg,Guillermo Vilas,Swedish,Clay,French Open,19680,15866,Male
+1975,John Newcombe,Jimmy Connors,Australian,Grass,Australian Open,6186,15866,Male
+1974,Jimmy Connors,Ken Rosewall,American,outdoors,U.S. Open,22500,14783,Male
+1974,Jimmy Connors,Ken Rosewall,American,Grass / Outdoor,Wimbledon,12600,14783,Male
+1974,Bjorn Borg,Manuel Orantes,Swedish,Clay,French Open,19680,14783,Male
+1974,Jimmy Connors,Phil Dent,American,Grass,Australian Open,4355,14783,Male
+1973,John Newcombe,Jan Kodes,Australian,outdoors,U.S. Open,25000,11825,Male
+1973,Jan Kodes,Alex Metreveli,Czech,Grass / Outdoor,Wimbledon,6300,11825,Male
+1973,Ilie Nastase,Nikola Pilic,Romanian,Clay,French Open,11480,11825,Male
+1973,John Newcombe,Onny Parun,Australian,Grass,Australian Open,4522,11825,Male
+1972,Ilie Nastase,Arthur Ashe,Romanian,outdoors,U.S. Open,25000,10128,Male
+1972,Stan Smith,Ilie Nastase,American,Grass / Outdoor,Wimbledon,6300,10128,Male
+1972,Andres Gimeno,Patrick Proisy,Spanish,Clay,French Open,7872,10128,Male
+1972,Ken Rosewall,Mal Anderson,Australian,Grass,Australian Open,1340,10128,Male
+1971,Stan Smith,Jan Kodes,American,outdoors,U.S. Open,15000,8406,Male
+1971,John Newcombe,Stan Smith,Australian,Grass / Outdoor,Wimbledon,4725,8406,Male
+1971,Jan Kodes,Ilie Nastase,Czech,Clay,French Open,7872,8406,Male
+1971,Ken Rosewall,Arthur Ashe,Australian,Grass,Australian Open,6030,8406,Male
+1970,Ken Rosewall,Tony Roche,Australian,outdoors,U.S. Open,20000,10988,Male
+1970,John Newcombe,Ken Rosewall,Australian,Grass / Outdoor,Wimbledon,3780,10988,Male
+1970,Jan Kodes,Zeljiko Franulovic,Czech,Clay,French Open,9184,10988,Male
+1969,Rod Laver,Tony Roche,Australian,outdoors,U.S. Open,16000,8506,Male
+1969,Rod Laver,John Newcombe,Australian,Grass / Outdoor,Wimbledon,3780,8506,Male
+1969,Rod Laver,Ken Rosewall,Australian,Clay,French Open,5740,8506,Male
+1968,Arthur Ashe,Tom Okker,American,outdoors,U.S. Open,14000,6326,Male
+1968,Rod Laver,Tony Roche,Australian,Grass / Outdoor,Wimbledon,2520,6326,Male
+1968,Ken Rosewall,Rod Laver,Australian,Clay,French Open,2460,6326,Male
+2022,Ashleigh Barty,Danielle Collins,AUS,NA,Australian Open,1926250,2301562,Female
+2021,Naomi Osaka,Jennifer Brady,JPN,NA,Australian Open,1842500,1999125,Female
+2020,Sofia Kenin,Garbine Muguruza,USA,NA,Australian Open,1383550,2037183,Female
+2019,Naomi Osaka,Petra Kvitova,JPN,NA,Australian Open,2747000,3010500,Female
+2018,Caroline Wozniacki,Simona Halep,DEN,NA,Australian Open,2680000,2922750,Female
+2017,Serena Williams,Venus Williams,USA,NA,Australian Open,2479000,2804750,Female
+2016,Angelique Kerber,Serena Williams,GER,NA,Australian Open,2278000,2614500,Female
+2015,Serena Williams,Maria Sharapova,USA,NA,Australian Open,2077000,2422450,Female
+2014,Li Na,Dominika Cibulkova,CHN,NA,Australian Open,1775500,2193775,Female
+2013,Victoria Azarenka,Li Na,NA,NA,Australian Open,1628100,1966025,Female
+2012,Victoria Azarenka,Maria Sharapova,NA,NA,Australian Open,1541000,1560000,Female
+2011,Kim Clijsters,Li Na,BEL,NA,Australian Open,1474000,1489000,Female
+2010,Serena Williams,Justine Henin,USA,NA,Australian Open,1407000,1394150,Female
+2009,Serena Williams,Dinara Safina,USA,NA,Australian Open,1340000,1288950,Female
+2008,Maria Sharapova,Ana Ivanovic,NA,NA,Australian Open,917900,1110725,Female
+2007,Serena Williams,Maria Sharapova,USA,NA,Australian Open,858270,1055067,Female
+2006,Amelie Mauresmo,Justine Henin-Hardenne,FRA,NA,Australian Open,817400,955025,Female
+2005,Serena Williams,Lindsay Davenport,USA,NA,Australian Open,808435,900198,Female
+2004,Justine Henin-Hardenne,Kim Clijsters,BEL,NA,Australian Open,804000,853952,Female
+2003,Serena Williams,Venus Williams,USA,NA,Australian Open,755659,828569,Female
+2003,Serena Williams,Venus Williams,USA,NA,Wimbledon,674100,828569,Female
+2002,Jennifer Capriati,Martina Hingis,USA,NA,Australian Open,670000,750925,Female
+2001,Jennifer Capriati,Martina Hingis,USA,NA,Australian Open,556435,674088,Female
+2000,Lindsay Davenport,Martina Hingis,USA,NA,Australian Open,480390,620695,Female
+1999,Martina Hingis,Amelie Mauresmo,SUI,NA,Australian Open,454930,587665,Female
+1998,Martina Hingis,Conchita Martinez,SUI,NA,Australian Open,383240,542716,Female
+1997,Martina Hingis,Mary Pierce,SUI,NA,Australian Open,363140,512387,Female
+1996,Monica Seles,Anke Huber,USA,NA,Australian Open,341700,478804,Female
+1995,Mary Pierce,Arantxa Sanchez Vicario,FRA,NA,Australian Open,321600,454570,Female
+1994,Steffi Graf,Arantxa Sanchez Vicario,GER,NA,Australian Open,308200,432330,Female
+1993,Monica Seles,Steffi Graf,YUG,NA,Australian Open,274700,390320,Female
+1992,Monica Seles,Mary Joe Fernandez,YUG,NA,Australian Open,241200,362170,Female
+1991,Monica Seles,Jana Novotna,YUG,NA,Australian Open,214400,313357,Female
+1990,Steffi Graf,Mary Joe Fernandez,GER,NA,Australian Open,169733,267417,Female
+1989,Steffi Graf,Helena Sukova,FRG,NA,Australian Open,90450,216797,Female
+1988,Steffi Graf,Chris Evert,FRG,NA,Australian Open,73700,193951,Female
+1987,Hana Mandlikova,Martina Navratilova,TCH,NA,Australian Open,77050,174037,Female
+1985,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Australian Open,67000,152250,Female
+1985,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Wimbledon,147420,152250,Female
+1984,Chris Evert-Lloyd,Helena Sukova,USA,NA,Australian Open,67000,117531,Female
+1983,Martina Navratilova,Kathy Jordan,USA,NA,Australian Open,50250,76837,Female
+1982,Chris Evert-Lloyd,Martina Navratilova,USA,NA,Australian Open,26800,53312,Female
+1981,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Australian Open,22780,36506,Female
+1980,Hana Mandlikova,Wendy Turnbull,TCH,NA,Australian Open,21440,29848,Female
+1979,Barbara Jordan,Sharon Walsh,USA,NA,Australian Open,6700,22297,Female
+1978,Chris O’Neil,Betsy Nagelsen,NA,NA,Australian Open,4020,19991,Female
+1976,Evonne Goolagong Cawley,Renata Tomanova,NA,NA,Australian Open,4020,12885,Female
+1975,Evonne Goolagong,Martina Navratilova,NA,NA,Australian Open,4020,11100,Female
+1974,Evonne Goolagong,Chris Evert,NA,NA,Australian Open,4020,10475,Female
+1973,Margaret Court,Evonne Goolagong,NA,NA,Australian Open,3015,8973,Female
+1972,Virginia Wade,Evonne Goolagong,GBR,NA,Australian Open,804,4199,Female
+1971,Margaret Court,Evonne Goolagong,NA,NA,Australian Open,1206,2672,Female
+2022,Elena Rybakina,Ons Jabeur,KAZ,NA,Wimbledon,2520000,2301562,Female
+2021,Ashleigh Barty,Karolina Pliskova,AUS,NA,Wimbledon,2142000,1999125,Female
+2019,Simona Halep,Serena Williams,ROU,NA,Wimbledon,2961000,3010500,Female
+2018,Angelique Kerber,Serena Williams,GER,NA,Wimbledon,2835000,2922750,Female
+2017,Garbine Muguruza,Venus Williams,ESP,NA,Wimbledon,2772000,2804750,Female
+2016,Serena Williams,Angelique Kerber,USA,NA,Wimbledon,2520000,2614500,Female
+2015,Serena Williams,Garbine Muguruza,USA,NA,Wimbledon,2368800,2422450,Female
+2014,Petra Kvitova,Sabine Lisicki,Cze,NA,Wimbledon,2217600,2193775,Female
+2013,Marion Bartoli,Eugenie Bouchard,FRA,NA,Wimbledon,2016000,1966025,Female
+2012,Serena Williams,Agnieszka Radwanska,USA,NA,Wimbledon,1449000,1560000,Female
+2011,Petra Kvitova,Maria Sharapova,CZE,NA,Wimbledon,1386000,1489000,Female
+2010,Serena Williams,Vera Zvonareva,USA,NA,Wimbledon,1260000,1394150,Female
+2009,Serena Williams,Venus Williams,USA,NA,Wimbledon,1071000,1288950,Female
+2008,Venus Williams,Serena Williams,USA,NA,Wimbledon,945000,1110725,Female
+2007,Venus Williams,Marion Bartoli,USA,NA,Wimbledon,882000,1055067,Female
+2006,Amelie Mauresmo,Justine Henin,FRA,NA,Wimbledon,787500,955025,Female
+2005,Venus Williams,Lindsay Davenport,USA,NA,Wimbledon,756000,900198,Female
+2004,Maria Sharapova,Serena Williams,RUS,NA,Wimbledon,706230,853952,Female
+2002,Serena Williams,Venus Williams,USA,NA,Wimbledon,612360,750925,Female
+2002,Serena Williams,Venus Williams,USA,NA,French Open,821340,750925,Female
+2001,Venus Williams,Justine Henin,USA,NA,Wimbledon,582750,674088,Female
+2000,Venus Williams,Lindsay Davenport,USA,NA,Wimbledon,541800,620695,Female
+1999,Lindsay Davenport,Steffi Graf,USA,NA,Wimbledon,515970,587665,Female
+1998,Jana Novotna,Nathalie Tauziat,CZE,NA,Wimbledon,493290,542716,Female
+1997,Martina Hingis,Jana Novotna,SUI,NA,Wimbledon,470610,512387,Female
+1996,Steffi Graf,Arantxa Sanchez Vicario,GER,NA,Wimbledon,444780,478804,Female
+1996,Steffi Graf,Arantxa Sanchez Vicario,GER,NA,French Open,528736,478804,Female
+1995,Steffi Graf,Arantxa Sanchez Vicario,GER,NA,Wimbledon,413280,454570,Female
+1995,Steffi Graf,Arantxa Sanchez Vicario,GER,NA,French Open,508400,454570,Female
+1994,Conchita Martinez,Martina Navratilova,ESP,NA,Wimbledon,390600,432330,Female
+1993,Steffi Graf,Jana Novotna,GER,NA,Wimbledon,346500,390320,Female
+1992,Steffi Graf,Monica Seles,GER,NA,Wimbledon,302400,362170,Female
+1991,Steffi Graf,Gabriela Sabatini,GER,NA,Wimbledon,272160,313357,Female
+1990,Martina Navratilova,Zina Garrison,USA,NA,Wimbledon,260820,267417,Female
+1989,Steffi Graf,Martina Navratilova,FRG,NA,Wimbledon,215460,216797,Female
+1988,Steffi Graf,Martina Navratilova,FRG,NA,Wimbledon,187110,193951,Female
+1987,Martina Navratilova,Steffi Graf,USA,NA,Wimbledon,175770,174037,Female
+1986,Martina Navratilova,Hana Mandlikova,USA,NA,Wimbledon,158760,192805,Female
+1984,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Wimbledon,113400,117531,Female
+1983,Martina Navratilova,Andrea Jaeger,USA,NA,Wimbledon,75600,76837,Female
+1982,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Wimbledon,47250,53312,Female
+1981,Chris Evert-Lloyd,Hana Mandlikova,USA,NA,Wimbledon,24444,36506,Female
+1980,Evonne Goolagong Cawley,Chris Evert-Lloyd,AUS,NA,Wimbledon,22680,29848,Female
+1979,Martina Navratilova,Chris Evert-Lloyd,USA,NA,Wimbledon,22680,22297,Female
+1978,Martina Navratilova,Chris Evert,USA,NA,Wimbledon,21546,19991,Female
+1977,Virginia Wade,Betty Stove,GBR,NA,Wimbledon,17010,18583,Female
+1976,Chris Evert,Evonne Goolagong Cawley,USA,NA,Wimbledon,12600,12885,Female
+1975,Billie Jean King,Evonne Goolagong Cawley,USA,NA,Wimbledon,8820,11100,Female
+1974,Chris Evert,Olga Morozova,USA,NA,Wimbledon,8820,10475,Female
+1974,Chris Evert,Olga Morozova,USA,NA,French Open,6560,10475,Female
+1973,Billie Jean King,Chris Evert,USA,NA,Wimbledon,3780,8973,Female
+1972,Billie Jean King,Evonne Goolagong Cawley,USA,NA,Wimbledon,3780,4199,Female
+1972,Billie Jean King,Evonne Goolagong Cawley,USA,NA,French Open,2214,4199,Female
+1971,Evonne Goolagong Cawley,Margaret Court,AUS,NA,Wimbledon,2268,2672,Female
+1970,Margaret Court,Billie Jean King,AUS,NA,Wimbledon,1890,4103,Female
+1969,Ann Haydon Jones,Billie Jean King,GBR,NA,Wimbledon,1890,3882,Female
+1968,Billie Jean King,Judy Tegart Dalton,USA,NA,Wimbledon,945,3441,Female
+2022,Iga Swiatek,Coco Gauff,POL,NA,French Open,2160000,2301562,Female
+2021,Barbora Krejcikova,Anastasia Pavlyuchenkova,CZE,NA,French Open,1512000,1999125,Female
+2020,Iga Swiatek,Sofia Kenin,POL,NA,French Open,1728000,2037183,Female
+2019,Ashleigh Barty,Marketa Vondrousova,AUS,NA,French Open,2484000,3010500,Female
+2018,Simona Halep,Sloane Stephens,ROU,NA,French Open,2376000,2922750,Female
+2017,Jelena Ostapenko,Simona Halep,LAT,NA,French Open,2268000,2804750,Female
+2016,Garbine Muguruza,Serena Williams,SPA,NA,French Open,2160000,2614500,Female
+2015,Serena Williams,Lucie Safarova,USA,NA,French Open,1944000,2422450,Female
+2014,Maria Sharapova,Simona Halep,RUS,NA,French Open,1782000,2193775,Female
+2013,Serena Williams,Maria Sharapova,USA,NA,French Open,1620000,1966025,Female
+2012,Maria Sharapova,Sara Errani,RUS,NA,French Open,1350000,1560000,Female
+2011,Li Na,Francesca Schiavone,CHN,NA,French Open,1296000,1489000,Female
+2010,Francesca Schiavone,Samantha Stosur,ITA,NA,French Open,1209600,1394150,Female
+2009,Svetlana Kuznetsova,Dinara Safina,RUS,NA,French Open,1144800,1288950,Female
+2008,Ana Ivanovic,Dinara Safina,SRB,NA,French Open,1080000,1110725,Female
+2007,Justine Henin,Ana Ivanovic,BEL,NA,French Open,1080000,1055067,Female
+2006,Justine Henin,Svetlana Kuznetsova,BEL,NA,French Open,1015200,955025,Female
+2005,Justine Henin,Mary Pierce,BEL,NA,French Open,936360,900198,Female
+2004,Anastasia Myskina,Elena Dementieva,RUS,NA,French Open,905580,853952,Female
+2003,Justine Henin,Kim Clijsters,BEL,NA,French Open,884520,828569,Female
+2001,Jennifer Capriati,Kim Clijsters,USA,NA,French Open,707168,674088,Female
+2000,Mary Pierce,Conchita Martinez,FRA,NA,French Open,660592,620695,Female
+1999,Steffi Graf,Martina Hingis,GER,NA,French Open,629760,587665,Female
+1998,Arantxa Sanchez Vicario,Monica Seles,ESP,NA,French Open,594336,542716,Female
+1997,Iva Majoli,Martina Hingis,CRO,NA,French Open,565800,512387,Female
+1994,Arantxa Sanchez Vicario,Mary Pierce,ESP,NA,French Open,480520,432330,Female
+1993,Steffi Graf,Mary Joe Fernandez,GER,NA,French Open,405080,390320,Female
+1992,Monica Seles,Steffi Graf,YUG,NA,French Open,405080,362170,Female
+1991,Monica Seles,Arantxa Sanchez Vicario,YUG,NA,French Open,366868,313357,Female
+1990,Monica Seles,Steffi Graf,YUG,NA,French Open,289115,267417,Female
+1989,Arantxa Sanchez Vicario,Steffi Graf,ESP,NA,French Open,261280,216797,Female
+1988,Steffi Graf,Natalia Zvereva,FRG,NA,French Open,239995,193951,Female
+1987,Steffi Graf,Martina Navratilova,FRG,NA,French Open,193329,174037,Female
+1986,Chris Evert,Martina Navratilova,USA,NA,French Open,209657,192805,Female
+1985,Chris Evert,Martina Navratilova,USA,NA,French Open,207082,152250,Female
+1984,Martina Navratilova,Chris Evert,USA,NA,French Open,129724,117531,Female
+1983,Chris Evert,Mima Jausovec,USA,NA,French Open,61500,76837,Female
+1982,Martina Navratilova,Andrea Jaeger,USA,NA,French Open,49200,53312,Female
+1981,Hana Mandlikova,Sylvia Hanika,TCH,NA,French Open,32800,36506,Female
+1980,Chris Evert,Virginia Ruzici,USA,NA,French Open,29274,29848,Female
+1979,Chris Evert,Wendy Turnbull,USA,NA,French Open,20811,22297,Female
+1978,Virginia Ruzici,Mima Jausovec,ROU,NA,French Open,16400,19991,Female
+1977,Mima Jausovec,Florenta Mihai,YUG,NA,French Open,5740,18583,Female
+1976,Sue Barker,Renata Tomanova,GBR,NA,French Open,4920,12885,Female
+1975,Chris Evert,Martina Navratilova,USA,NA,French Open,6560,11100,Female
+1973,Margaret Court,Chris Evert,AUS,NA,French Open,4100,8973,Female
+1971,Evonne Goolagong Cawley,Helen Gourlay Cawley,AUS,NA,French Open,2214,2672,Female
+1970,Margaret Court,Helga Niessen Masthoff,AUS,NA,French Open,2919,4103,Female
+1969,Margaret Court,Ann Haydon Jones,AUS,NA,French Open,1640,3882,Female
+1968,Nancy Richey,Ann Haydon Jones,USA,NA,French Open,820,3441,Female
+2022,Iga Świątek,Ons Jabeur,Poland,NA,U.S. Open,2600000,2301562,Female
+2021,Emma Raducanu,Leylah Fernandez (Canada),Breat Britain,NA,U.S. Open,2500000,1999125,Female
+2020,Naomi Osaka,Victoria Azarenka,Japan,NA,U.S. Open,3000000,2037183,Female
+2019,Bianca Andreescu,Serena Williams,Canada,NA,U.S. Open,3850000,3010500,Female
+2018,Naomi Osaka,Serena Williams,Japan,NA,U.S. Open,3800000,2922750,Female
+2017,Sloane Stephens,Madison Keys,USA,NA,U.S. Open,3700000,2804750,Female
+2016,Angelique Kerber,Karolína Plíšková,Germany,NA,U.S. Open,3500000,2614500,Female
+2015,Flavia Pennetta,Roberta Vinci,Italy,NA,U.S. Open,3300000,2422450,Female
+2014,Serena Williams,Caroline Wozniacki,USA,NA,U.S. Open,3000000,2193775,Female
+2013,Serena Williams,Victoria Azarenka,USA,NA,U.S. Open,2600000,1966025,Female
+2012,Serena Williams,Victoria Azarenka,USA,NA,U.S. Open,1900000,1560000,Female
+2011,Samantha Stosur,Serena Williams,Australia,NA,U.S. Open,1800000,1489000,Female
+2010,Kim Clijsters,Vera Zvonareva,Belgium,NA,U.S. Open,1700000,1394150,Female
+2009,Kim Clijsters,Caroline Wozniacki,Belgium,NA,U.S. Open,1600000,1288950,Female
+2008,Serena Williams,Jelena Janković,USA,NA,U.S. Open,1500000,1110725,Female
+2007,Justine Henin,Svetlana Kuznetsova,NA,NA,U.S. Open,1400000,1055067,Female
+2006,Maria Sharapova,Justine Henin-Hardenne,NA,NA,U.S. Open,1200000,955025,Female
+2005,Kim Clijsters,Mary Pierce,NA,NA,U.S. Open,1100000,900198,Female
+2004,Svetlana Kuznetsova,Elena Dementieva,NA,NA,U.S. Open,1000000,853952,Female
+2003,Justine Henin-Hardenne,Kim Clijsters,NA,NA,U.S. Open,1000000,828569,Female
+2002,Serena Williams,Venus Williams,NA,NA,U.S. Open,900000,750925,Female
+2001,Venus Williams,S.Williams,NA,NA,U.S. Open,850000,674088,Female
+2000,Venus Williams,L.Davenport,NA,NA,U.S. Open,800000,620695,Female
+1999,Serena Williams,M.Hingis,NA,NA,U.S. Open,750000,587665,Female
+1998,Lindsay Davenport,M. Hingis,NA,NA,U.S. Open,700000,542716,Female
+1997,Martina Hingis,V. Williams,NA,NA,U.S. Open,650000,512387,Female
+1996,Steffi Graf,M. Seles,NA,NA,U.S. Open,600000,478804,Female
+1995,Steffi Graf,M. Seles,NA,NA,U.S. Open,575000,454570,Female
+1994,A. Sanchez Vicario,S. Graf,NA,NA,U.S. Open,550000,432330,Female
+1993,Steffi Graf,H. Sukova,NA,NA,U.S. Open,535000,390320,Female
+1992,Monica Seles,A.S. Vicario,NA,NA,U.S. Open,500000,362170,Female
+1991,Monica Seles,M. Navratilova,NA,NA,U.S. Open,400000,313357,Female
+1990,Gabriela Sabatini,S. Graf,NA,NA,U.S. Open,350000,267417,Female
+1989,Steffi Graf,M. Navratilova,NA,NA,U.S. Open,300000,216797,Female
+1988,Steffi Graf,G. Sabatini,NA,NA,U.S. Open,275000,193951,Female
+1987,Martina Navratilova,S. Graf,NA,NA,U.S. Open,250000,174037,Female
+1986,Martina Navratilova,H. Sukova,NA,NA,U.S. Open,210000,192805,Female
+1985,Hana Mandlikova,M. Navratilova,NA,NA,U.S. Open,187500,152250,Female
+1984,Martina Navratilova,C. Evert Lloyd,NA,NA,U.S. Open,160000,117531,Female
+1983,Martina Navratilova,C. Evert Lloyd,NA,NA,U.S. Open,120000,76837,Female
+1982,Chris Evert Lloyd,H. Mandlikova,NA,NA,U.S. Open,90000,53312,Female
+1981,Tracy Austin,M. Navratilova,NA,NA,U.S. Open,66000,36506,Female
+1980,Chris Evert Lloyd,H. Mandlikova,NA,NA,U.S. Open,46000,29848,Female
+1979,Tracy Austin,C. Evert Lloyd,NA,NA,U.S. Open,39000,22297,Female
+1978,Chris Evert,P. Shriver,NA,NA,U.S. Open,38000,19991,Female
+1977,Chris Evert,W. Turnbull,NA,NA,U.S. Open,33000,18583,Female
+1976,Chris Evert,E. Cawley,NA,NA,U.S. Open,30000,12885,Female
+1975,Chris Evert,E. Cawley,NA,NA,U.S. Open,25000,11100,Female
+1974,Billie Jean King,E. Goolagong,NA,NA,U.S. Open,22500,10475,Female
+1973,Margaret Court,E. Goolagong,NA,NA,U.S. Open,25000,8973,Female
+1972,Billie Jean King,K. Melville,NA,NA,U.S. Open,10000,4199,Female
+1971,Billie Jean King,R. Casals,NA,NA,U.S. Open,5000,2672,Female
+1970,Margaret Court,R. Casals,NA,NA,U.S. Open,7500,4103,Female
+1969,Open - Margaret Court,N. Richey,NA,NA,U.S. Open,6000,3882,Female
+1969,Amateur - Margaret Court,V. Wade,NA,NA,U.S. Open,6000,3882,Female
+1968,Amateur - Margaret Court,M. Bueno,NA,NA,U.S. Open,6000,3441,Female
+1968,Open -Virginia Wade,B.J. King,NA,NA,U.S. Open,6000,3441,Female

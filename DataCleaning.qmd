@@ -8,6 +8,8 @@ editor: visual
 library(rvest)
 library(magrittr)
 library(tidyverse)
+library(readr)
+library(ggplot2)
 ```
 # Webscraping
 
@@ -149,17 +151,15 @@ head(USO_clean)
 # Joining WTA Data
 
 ```{r}
-# combine all four datasets
-joined_wta <- AO_clean |>
-  full_join(W_clean) |>
-  full_join(FO_clean) |>
-  full_join(USO_clean)
-
-head(joined_wta)
+wta_clean <- rbind(AO_clean, W_clean)
+wta_clean <- rbind(wta_clean, FO_clean)
+wta_clean <- rbind(wta_clean, USO_clean)
+head(wta_clean)
 ```
+
 ```{r cleaning wta}
 # make separate nationality columns
-wta <- joined_wta %>%
+wta <- wta_clean %>%
   separate(WINNER, into = c("WINNER", "WINNER_NATIONALITY"), sep = " \\(") |>
   mutate(WINNER_NATIONALITY = str_remove(WINNER_NATIONALITY, "\\)")) |>
   separate(`RUNNER-UP`, into = c("RUNNER-UP", "RUNNER-UP_NATIONALITY"), sep = " \\(") |>
@@ -185,23 +185,26 @@ head(atp)
 # use prize money data for wta and join to wta data set (done)
 # add atp column to atp dataset (done)
 # add wta column to wta dataset (done)
-# join atp and wta dataset into one massive dataset for app
-# fill in missing values for atp via research
+# join atp and wta dataset into one massive dataset for app (done)
+# fill in missing values for wta via research (done)
+# make a csv of new data (done)
+# apply new dataset to app (done)
 # forecast prize money for mens and womens grandslams for next two years using ECON 406 knowledge
 # add information and content to app for user convenience
 # add more buttons "select for image" or "select for analytics"
 ```
 
-
-```{r atp prize money conversion}
-# convert prize money column in atp to USD for analysis
-
+```{r}
+# convert FO 1968-2001 from franks to USD
+# convert FO 2002-2022 from Euro to USD
 usd_conversion <- atp |>
   pivot_wider(names_from = TOURNAMENT,
               values_from = WINNER_PRIZE) |>
   mutate(Wimbledon = Wimbledon*1.26,
-         `French Open` = `French Open`*1.08,
-         `Australian Open` = `Australian Open`*0.67) 
+         `Australian Open` = `Australian Open`*0.67,
+         `French Open` = ifelse(YEAR <= 2001, `French Open`*0.164, `French Open`*1.08))
+
+head(usd_conversion)
 ```
 
 ```{r add mean prize money column}
@@ -292,7 +295,7 @@ wta_full <- wta |>
   pivot_wider(names_from = TOURNAMENT,
               values_from = WINNER_PRIZE) |>
    mutate(Wimbledon = Wimbledon*1.26,
-         `French Open` = `French Open`*1.08,
+         `French Open` = ifelse(YEAR <= 2001, `French Open`*0.164, `French Open`*1.08),
          `Australian Open` = `Australian Open`*0.67)
 
 head(wta_full)
@@ -314,27 +317,42 @@ wta_usd <- wta_full |>
 
 head(wta_usd)
 ```
-
-
-## GrandSlam Data
-The columns ending in (.x) apply to Men's Singles
-The columns ending in (.y) apply to Women's Singles
-The columns that don't have either apply to both Men's and Women's Singles results
 ```{r}
 # join atp and wta into one massive dataset for app
-grandslam <- atp_usd |>
-  left_join(wta_usd, by = "YEAR") |>
-  select(-c(GENDER.x, TOURNAMENT.y, GENDER.y)) |>
-  rename(TOURNAMENT = TOURNAMENT.x)
+df <- rbind(atp_usd, wta_usd)
 
-head(grandslam)
+head(df)
+```
+
+
+```{r csv}
+# turn cleaned data into a csv
+write_csv(df, "grandslam_prize_usd.csv")
 ```
 
 
 
+```{r}
+# women <- grandslam %>%
+#   select(-c(WINNER.x, `RUNNER-UP.x`, WINNER_NATIONALITY.x, WINNER_PRIZE.x, MEAN_PRIZE.x)) %>% 
+#   rename_with(~ str_replace(., "\\.y$", ""), ends_with(".y")) %>% 
+#   mutate(GENDER = "Women's Singles") %>% 
+#   distinct(.keep_all = FALSE)
+  
+```
+
+```{r}
+# men <- grandslam %>%
+#   select(-c(WINNER.y, `RUNNER-UP.y`, WINNER_NATIONALITY.y, WINNER_PRIZE.y, MEAN_PRIZE.y)) %>% 
+#   rename_with(~ str_replace(., "\\.x$", ""), ends_with(".x")) %>% 
+#   mutate(GENDER = "Men's Singles")
+```
 
 
+```{r}
+# fo <- grandslam |>
+#   filter(TOURNAMENT == "French Open")
 
-
+```
 
 
