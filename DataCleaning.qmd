@@ -16,7 +16,7 @@ library(ggplot2)
 ## Australian Open Data
 
 ```{r Australian Open WTA,tidy=F }
-#Step 0 - assign the weblink to an object
+#Step 0 - assign the Australian Open weblink to an object
 AOurl <- "https://ausopen.com/history/honour-roll/womens-singles"
 
 #Step 1 - read the webpage into R
@@ -25,10 +25,10 @@ AOlink <- read_html(AOurl)
 #Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
 AOhtml <- html_nodes(AOlink, css = "table")
 
-#Step 3 - extract text from the node
+#Step 3 - extract the table from the nodes
 AO_wta <- html_table(AOhtml)
 
-#Combine all text for a paragraph form of the weather forecast
+#Convert into a data.frame and confirm
 AO_wta <- as.data.frame(AO_wta)
 class(AO_wta)
 ```
@@ -56,8 +56,10 @@ Wlink <- read_html(Wurl)
 #Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
 Whtml <- html_nodes(Wlink, css = ".chart")
 
-#Step 3 - extract text from the node
+#Step 3 - extract table from the node
 W_wta <- html_table(Whtml)
+
+#turn table into data.frame format
 W_wta <- as.data.frame(W_wta)
 class(W_wta)
 ```
@@ -69,7 +71,7 @@ W_wta <- W_wta[-1,]
 ```
 
 ```{r}
-# Change column names
+# Fix column names
 W_clean <- W_wta |>
   rename(YEAR = X1, WINNER = X2, `RUNNER-UP` = X3, SCORE = X4) |>
   select(-SCORE) |>
@@ -92,10 +94,10 @@ FOlink <- read_html(FOurl)
 #Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
 FOhtml <- html_nodes(FOlink, css = ".chart")
 
-#Step 3 - extract text from the node
+#Step 3 - extract table from the node
 FO_wta <- html_table(FOhtml)
 
-#Combine all text for a paragraph form of the weather forecast
+#convert table into data.frame format and confirm
 
 FO_wta <- as.data.frame(FO_wta)
 class(FO_wta)
@@ -107,7 +109,7 @@ FO_wta <- FO_wta[-1, ]
 ```
 
 ```{r}
-# change column names
+# fix column names
 FO_clean <- FO_wta |>
   rename(YEAR = X1, WINNER = X2, `RUNNER-UP` = X3, SCORE = X4) |>
   select(-SCORE) |>
@@ -130,15 +132,16 @@ USOlink <- read_html(USOurl)
 #Step 2 - identify the structure of the webpage, establish which piece you want to grab by the css code
 USOhtml <- html_nodes(USOlink, css = "table")
 
-#Step 3 - extract text from the node
+#Step 3 - extract table from the node
 USO_wta <- html_table(USOhtml)
 
-# Change from list to data.frame format
+# Change from list to data.frame format and confirm
 USO_wta <- as.data.frame(USO_wta)
 class(USO_wta)
 ```
 
 ```{r cleaning}
+# remove score column and rename to match other dfs
 USO_clean <- USO_wta |>
   select(-Score) |>
   rename(YEAR = Year, WINNER = Winner, `RUNNER-UP` = Runner.Up) |>
@@ -151,6 +154,7 @@ head(USO_clean)
 # Joining WTA Data
 
 ```{r}
+# combining dfs into one large wta df
 wta_clean <- rbind(AO_clean, W_clean)
 wta_clean <- rbind(wta_clean, FO_clean)
 wta_clean <- rbind(wta_clean, USO_clean)
@@ -173,30 +177,16 @@ head(wta)
 
 ## ATP
 ```{r}
+# read in pre-existing men's grandslam data with lots of extra information
 atp <- read_csv(here("Data/Mens_Tennis_Grand_Slam_Winner.csv"))
 head(atp)
 ```
 
 ```{r}
-# convert prize money column in atp to USD for analysis (done)
-# fill out most recent years prize money columns for wta (done)
-# make prize money columns for wta (done)
-# convert wta prize money to USD for analysis (done)
-# use prize money data for wta and join to wta data set (done)
-# add atp column to atp dataset (done)
-# add wta column to wta dataset (done)
-# join atp and wta dataset into one massive dataset for app (done)
-# fill in missing values for wta via research (done)
-# make a csv of new data (done)
-# apply new dataset to app (done)
-# forecast prize money for mens and womens grandslams for next two years using ECON 406 knowledge
-# add information and content to app for user convenience
-# add more buttons "select for image" or "select for analytics"
-```
-
-```{r}
-# convert FO 1968-2001 from franks to USD
-# convert FO 2002-2022 from Euro to USD
+# convert Wimbledon from Pounds to USD
+# convert French Open 1968-2001 from franks to USD
+# convert French Open 2002-2022 from Euro to USD
+# convert Australian Open from AUD to USD
 usd_conversion <- atp |>
   pivot_wider(names_from = TOURNAMENT,
               values_from = WINNER_PRIZE) |>
@@ -227,20 +217,18 @@ head(atp_usd)
 
 
 ```{r prize money data}
+# load in pre-existing prize money data from someone else's github repo
+# mens and womens prize money from 1660s - 2015
 prize <- read_csv(here("Data/tennis_pay.csv"))
 class(prize)
 prize <- as.data.frame(prize)
-# convert everything to USD
-## us: 1 USD = 1 USD
-## french: 1EUR = 1.08 USD
-## australian: 1 AUD = 0.67 USD
-## wimbledon: 1 GBP = 1.26 USD
+
 head(prize)
 ```
 ## WTA
 
 ```{r}
-# clean existing data
+# select prize money data pertaining to women's singles only. Rename grandslam names for consistency
 wta_prize <- prize |>
   select(year, wimbledon_women, us_open_women, aus_open_women, roland_garros_women) |>
   rename(Wimbledon = wimbledon_women,
@@ -252,7 +240,7 @@ head(wta_prize)
 ```
 
 ```{r}
-# add recent years prize money data
+# create new df with recent years prize money data
 # found via googling
 recent_years <- data.frame(
  year <- c(2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016),
@@ -289,7 +277,7 @@ head(wta_prize_filled)
 ```
 ```{r}
 # join wta_prize_filled and wta data
-# convert wta prize money to USD for analysis
+# convert wta prize money to USD for analysis, same as ATP conversions
 wta_full <- wta |>
   left_join(wta_prize_filled) |>
   pivot_wider(names_from = TOURNAMENT,
@@ -302,7 +290,7 @@ head(wta_full)
 ```
 
 ```{r}
-# revert to original 
+# revert to original format
 wta_usd <- wta_full |>
   pivot_longer(`Australian Open`:`U.S. Open`,
                names_to = "TOURNAMENT",
@@ -330,29 +318,5 @@ head(df)
 write_csv(df, "grandslam_prize_usd.csv")
 ```
 
-
-
-```{r}
-# women <- grandslam %>%
-#   select(-c(WINNER.x, `RUNNER-UP.x`, WINNER_NATIONALITY.x, WINNER_PRIZE.x, MEAN_PRIZE.x)) %>% 
-#   rename_with(~ str_replace(., "\\.y$", ""), ends_with(".y")) %>% 
-#   mutate(GENDER = "Women's Singles") %>% 
-#   distinct(.keep_all = FALSE)
-  
-```
-
-```{r}
-# men <- grandslam %>%
-#   select(-c(WINNER.y, `RUNNER-UP.y`, WINNER_NATIONALITY.y, WINNER_PRIZE.y, MEAN_PRIZE.y)) %>% 
-#   rename_with(~ str_replace(., "\\.x$", ""), ends_with(".x")) %>% 
-#   mutate(GENDER = "Men's Singles")
-```
-
-
-```{r}
-# fo <- grandslam |>
-#   filter(TOURNAMENT == "French Open")
-
-```
 
 
