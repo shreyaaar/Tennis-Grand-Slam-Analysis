@@ -7,15 +7,27 @@ editor: visual
 library(tidyverse)
 library(data.table)
 library(gganimate)
+library(readr)
+```
+
+```{r}
+library(data.table)
+ten <- read_csv(here("data/grandslam_prize_usd.csv"))
+
+# add new rows with updated information to tennis df
+GS_23 <- data.table(YEAR = c(2023, 2023, 2023), WINNER = c("Aryna Sabalenka", "Iga Swiatek", "Novak Djokovic"), `RUNNER-UP` = c("Elena Rybakina", "Karolina Muchova", "Casper Ruud"), WINNER_NATIONALITY = c("Belarus", "Poland", "Serbia"), TOURNAMENT_SURFACE = c("Plexicushion Prestige", "Clay", "Clay"), TOURNAMENT = c("Australian Open", "French Open", "French Open"), WINNER_PRIZE = c(1373500, 2496039, 2496039), MEAN_PRIZE = c(1934770, 1934770, 1934770), GENDER = c("Female", "Female", "Male"))
+
+ten <- rbindlist(list(ten, GS_23))
+
+# check that the new rows added correctly
+ten |>
+    filter(YEAR == 2023)
+
 ```
 
 
 ```{r}
 # creating new data from original tennis data
-
-
-setDT(ten)
-
 top5 <- ten[, .(GrandSlamWins = .N), by = "WINNER"][
   order(-GrandSlamWins)][
     1:5]  # Change 5 to the desired number of players
