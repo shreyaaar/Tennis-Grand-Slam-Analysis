@@ -1,0 +1,60 @@
+---
+title: "More tennis visualizations"
+format: html
+editor: visual
+---
+```{r}
+library(tidyverse)
+library(data.table)
+library(gganimate)
+```
+
+
+```{r}
+# creating new data from original tennis data
+
+
+setDT(ten)
+
+top5 <- ten[, .(GrandSlamWins = .N), by = "WINNER"][
+  order(-GrandSlamWins)][
+    1:5]  # Change 5 to the desired number of players
+
+# Count the number of each Grand Slam won by the top players
+grand_slams <- ten[WINNER %in% top5$WINNER, .(Count = .N), by = .(WINNER, TOURNAMENT)]
+
+# Merge the number of Grand Slam wins with the counts
+top5 <- merge(top5, grand_slams, by = "WINNER", all.x = TRUE)
+head(top5)
+```
+
+Here I am making a self-contained gif with {gganimate}. This is a barplot breaks down the 5 tennis players who have won the most grandslams of all time. The plot shows how many of each tournament, the 5 players have won:
+```{r}
+
+# Sort the top5 dataframe by Grand Slam wins in descending order
+top5 <- top5[order(-top5$GrandSlamWins), ]
+
+# Create the bar plots
+p <- ggplot(top5, aes(x = WINNER, y = Count, fill = TOURNAMENT)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(x = "", y = "", subtitle = "Number of Times Won", title = "Grand Slams Won by Top 5 Record-Holders") +
+  theme_minimal() +
+  theme(panel.grid.major.y = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 12))
+
+
+# pick custom colors
+custom_colors <- c("#0073cf", "#b06835", "#6C935C", "#6836A5")
+p <- p + scale_fill_manual(values = custom_colors)
+
+# animate bar plots using gganimate transition states and fade
+animated_plot <- p +
+  transition_manual(TOURNAMENT) +
+  enter_fade() +
+  exit_fade()
+
+# Render and display the animation
+animate(animated_plot)
+```
+
+
