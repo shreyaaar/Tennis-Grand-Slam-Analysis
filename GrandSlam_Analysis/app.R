@@ -45,8 +45,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Results", tableOutput("table1")),
-        tabPanel("Tournament Prize Money Over Time", plotlyOutput("plot1"), htmlOutput("analysisText")),
-        tabPanel("Average Prize Money Over Time", plotlyOutput("plot2"))
+        tabPanel("Tournament Prize Money Over Time", plotlyOutput("plot1"), htmlOutput("analysisText"))
       ),
 
       imageOutput("image")
@@ -135,13 +134,44 @@ server <- function(input, output, session) {
 
       output$analysisText <- renderUI({
         if (tournament == "Australian Open"){
-          HTML("<i>HTML Text for Australian Open</i>")
+          HTML("<i>The Australian Open is the first Grand Slam of every year and always takes place in January in
+               Melbourne, Australia. This line graph displays the prize money awarded to the Men's and Women's singles
+               winners from 1968 to present. While this visualization may not show the whole story, prize money between
+               Men and Women in the Australian Open appears to be nearly identical.
+               It is also interesting to note that prize money for both genders steadily increases until 2019,
+               and in 2020, the Pandemic drastically effects prize money. That year, fans were not allowed at the
+               tournament which explains the sharp reduction in money.</i>")
         } else if (tournament == "French Open"){
-          HTML("<i>HTML Text for French Open</i>")
+          HTML("<i>The French Open is the second Grand Slam of every year and always takes place starting in the end of May
+               and finishing mid June. This line graph displays the prize money awarded to the Men's and Women's singles
+               winners from 1968 to present.
+               While this visualization may not show the whole story, shifts in prize money between Men
+               and Women in the French Open are nearly identical with the Women's winner receiving slightly less until
+               2007 when the French Federation decided equal pay would be given at this tournament.
+               It is also interesting to note that prize money steadily increases until 2019,
+               and in 2020, the Pandemic drastically effects prize money. That year, fans were not allowed at the
+               tournament which explains the sharp reduction in money.</i>")
         } else if (tournament == "Wimbledon"){
-          HTML("<i>HTML Text for Wimbledon</i>")
+          HTML("<i>Wimbledon is the third Grand Slam of every year and always takes place in July, two weeks after the
+               French Open in London, England. This is deemed the most prestigeous tournament of all, as it was the first
+               tennis tournament ever held and is known for its strict dress code of all white.
+               This line graph displays the prize money awarded to the Men's and Women's singles winners from 1968
+               to present. While this visualization may not show the whole story, shifts in prize money between Men
+               and Women in Wimbledon are nearly identical with the Women's winner receiving slightly less until
+               2007 when equal pay would first be given at this tournament.
+               It is also interesting to note that prize money steadily increases until 2019,
+               and in 2020, the Pandemic drastically effects prize money. That year, fans were not allowed at the
+               tournament which explains the sharp reduction in money.</i>")
         } else if (tournament == "U.S. Open"){
-          HTML("<i>HTML Text for U.S. Open</i>")
+          HTML("<i>The U.S. Open is the forth and final Grand Slam of every year and always takes place in September.
+               This tournament takes place in New York, and is known for its crazy and energetic crowds. It is the first tennis tournament
+               ever held and is known for its strict dress code of all white.
+               This line graph displays the prize money awarded to the Men's and Women's singles winners from 1968
+               to present. The U.S. Open prides itself on having always given equal prize money for Men and Women, which is why
+               the two lines are essentially identical.
+               It is also interesting to note that prize money steadily increases until 2019,
+               and in 2020, the Pandemic drastically effects prize money. That year, fans were not allowed at the
+               tournament which explains the sharp reduction in money.</i>")
         }
       })
 
